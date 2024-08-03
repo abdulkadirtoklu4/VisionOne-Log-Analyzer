@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log Analyzer 📊</title>
+    <link rel="stylesheet" href="../CSS/index.css">
+    <link rel="shortcut icon" href="https://avatars.githubusercontent.com/u/91195747?v=4" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Log Analyzer 📊</h1>
+        <input type="file" id="logFile" accept=".json">
+        <div>
+            <input type="text" id="search"
+                placeholder="Type, Object, Risk, Action, Expiration, Source, Source details, Description, Last updated">
+        </div>
+        <table id="logTable">
+            <thead>
+                <tr>
+                    <th>Object Type</th>
+                    <th>Object</th>
+                    <th>Risk Level</th>
+                    <th>Action</th>
+                    <th>Expiration</th>
+                    <th>Source</th>
+                    <th>Source Details</th>
+                    <th>Description</th>
+                    <th>Last Updated</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Log Datas -->
+            </tbody>
+        </table>
+    </div>
+    <script src="../JS/main.js"></script>
+</body>
+
+</html>
